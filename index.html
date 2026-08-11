@@ -3413,7 +3413,10 @@
           </p>
         </div>
 
-        <form id="interestForm">
+        <form id="interestForm" action="https://formspree.io/f/moeaddrd" method="POST">
+          <input type="hidden" name="_subject" value="Neue Interessenanfrage – Projekt 1M">
+          <input type="hidden" name="quelle" value="Projekt 1M Website">
+
 
 
           <input
@@ -3421,7 +3424,7 @@
             id="name"
             placeholder="Name"
             required
-          >
+           name="name">
 
 
           <input
@@ -3429,13 +3432,13 @@
             id="email"
             placeholder="E-Mail-Adresse"
             required
-          >
+           name="email">
 
 
           <textarea
             id="message"
             placeholder="Nachricht (optional)"
-          ></textarea>
+           name="message"></textarea>
 
 
           <button
