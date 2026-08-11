@@ -3449,25 +3449,8 @@
           </button>
 
 
-          <div
-            class="form-message"
-            id="formMessage"
-          >
-
-            Vielen Dank!
-
-            Deine Interessenbekundung wurde
-            vorbereitet.
-
-         
-
-          </div>
-
-
           <div class="form-note">
-
-           
-
+            Nach dem Absenden wird die Anfrage sicher über Formspree an Projekt 1M übermittelt.
           </div>
 
 
@@ -3803,42 +3786,6 @@
     ==================================================
     */
 
-
-    const interestForm =
-      document.getElementById(
-        "interestForm"
-      );
-
-
-    const formMessage =
-      document.getElementById(
-        "formMessage"
-      );
-
-
-    if (interestForm) {
-
-      interestForm.addEventListener(
-        "submit",
-        function(event) {
-
-          event.preventDefault();
-
-
-          if (formMessage) {
-
-            formMessage.style.display =
-              "block";
-
-          }
-
-
-          interestForm.reset();
-
-        }
-      );
-
-    }
 
 
     /*
